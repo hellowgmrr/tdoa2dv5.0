@@ -1,5 +1,5 @@
 function tag_position = chanX( num_of_anchor,anchor_position, R)
-K=eye(1,num_of_anchor-1);
+K=eye(2,num_of_anchor-1);
 Ga=eye(num_of_anchor-1,3);
 h=eye(1,num_of_anchor-1);
 reout=[0 
